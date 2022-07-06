@@ -1,4 +1,4 @@
-# switch_frontend
+# Project Cost And Time Calculator Front End
 
 ## Project setup
 ```
