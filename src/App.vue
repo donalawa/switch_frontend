@@ -26,6 +26,7 @@ body {
   padding: 0.5rem 2rem;
   color: #fff;
   font-size: 1rem;
+  
   text-decoration: none;
   font-weight: 500;
 }
