@@ -21,6 +21,8 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
+
+
 /* utton styles  */
 .btn {
   padding: 0.5rem 2rem;
