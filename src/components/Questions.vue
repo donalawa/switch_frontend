@@ -9,7 +9,9 @@
             <QuizSection @selectedanswer="selectedNewOption" :question="questions[currentQuestion]" :key="currentQuestion" :info="info"/>
         </transition>
         <transition v-if="showRequestForm && !showFinalResult">
+	
             <SubmissionForm />
+	    
         </transition>
 
         <transition v-if="showFinalResult && !showRequestForm" :key="showFinalResult">
@@ -28,6 +30,7 @@
 </template>
 
 <script>
+
 import QuizSection from "../partials/QuizSection.vue";
 import SubmissionForm from "../partials/SubmissionForm.vue";
 import FinalResults from "../partials/FinalResults.vue";
